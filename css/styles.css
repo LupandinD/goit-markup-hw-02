@@ -1,5 +1,8 @@
 :root {
   --primery-white-color: #ffffff;
+  --hover-logo-color: #2196f3;
+  --black-primery-color: #212121;
+  --grey-primery-color: #757575;
 }
 
 body {
@@ -26,7 +29,7 @@ body {
   text-decoration: none;
 }
 .logo span {
-  color: #2196f3;
+  color: var(--hover-logo-color);
 }
 
 /* header */
@@ -35,7 +38,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--black-primery-color);
 }
 
 .header-link:hover,
@@ -44,7 +47,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--hover-logo-color);
 }
 
 .header-contacts-link {
@@ -52,7 +55,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--grey-primery-color);
 }
 
 .header-contacts-link:hover,
@@ -62,7 +65,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--hover-logo-color);
 }
 /* main */
 .hero {
@@ -75,7 +78,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--primery-white-color);
 }
 
 .hero-button {
@@ -87,7 +90,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--primery-white-color);
 }
 
 .benefits-list-titel {
@@ -95,13 +98,13 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--black-primery-color);
 }
 .benefits-list-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: #757575;
+  color: var(--grey-primery-color);
 }
 
 .work-titel {
@@ -109,26 +112,26 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  color: #212121;
+  color: var(--black-primery-color);
 }
 
 .team-titel {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  color: #212121;
+  color: var(--black-primery-color);
 }
 .team-list-titel {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  color: #212121;
+  color: var(--black-primery-color);
 }
 .team-list-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: #757575;
+  color: var(--grey-primery-color);
 }
 
 .footer {
@@ -153,7 +156,7 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--black-primery-color);
 }
 
 .portfolio-button:hover,
@@ -165,8 +168,8 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--primery-white-color);
+  background-color: var(--hover-logo-color);
 }
 
 .portfolio-after-list-titel {
@@ -174,12 +177,12 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--black-primery-color);
 }
 
 .portfolio-after-list-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
-  color: #757575;
+  color: var(--grey-primery-color);
 }
