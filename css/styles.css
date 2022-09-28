@@ -111,6 +111,14 @@ body {
   color: var(--black-primery-color);
 }
 
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-list-card {
+  background-attachment: var(--primery-white-color);
+}
+
 .team-titel {
   font-weight: 700;
   font-size: 36px;
