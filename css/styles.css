@@ -2,14 +2,15 @@
   --primery-white-color: #ffffff;
   --hover-logo-color: #2196f3;
   --grey-primery-color: #757575;
+  --black-primery-color: #212121;
 }
 
 body {
   background-color: var(--primery-white-color);
+  color: var(--black-primery-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
-  color: #212121;
 }
 
 .visually-hidden {
@@ -63,7 +64,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--black-primery-color);
 }
 
 .header-link:hover,
@@ -198,7 +199,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--black-primery-color);
 }
 
 .portfolio-after-list-text {
